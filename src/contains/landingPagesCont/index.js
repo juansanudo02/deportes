@@ -1,7 +1,8 @@
 import React from 'react'
 import Carousel from '../../components/Carousel'
 import Header from '../../components/Header'
-// import Fixtures from '../../components/Fixtures'
+import Fixtures from '../../components/Fixtures'
+import Results from '../../components/Results'
 
 
 function index() {
@@ -9,7 +10,11 @@ function index() {
         <div className='aplication'>
            <Header/>
            <Carousel/>
-           {/* <Fixtures/> */}
+           
+           <Fixtures/>
+           
+           
+           
         </div>
     )
 }
